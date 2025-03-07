@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martingale-stratégia</title>
+    <body style="background-image:url('725d056785dd9b7c362a9962fb856760.jpg'); background-repeat: no-repeat;background-size:100% 115%;">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .example {
+            background: #e3f2fd;
+            padding: 15px;
+            border-left: 5px solid #007BFF;
+        }
+        .back-button {
+            display: block;
+            margin: 20px 0;
+            padding: 10px 15px;
+            background: #007BFF;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Martingale-stratégia</h1>
+        <p><strong>Ez az a stratégia, ahol robbantjuk a bankot.</strong></p>
+        <p>Ugyanis ez a stratégia nagy kockázattal jár, viszont nagyon nagy profittal is. Ezt a stratégiát egyébként érzésünk szerint már sokan ismerhetik másik nevén, úgy, hogy a "létra challenge".</p>
+        <p>A lényege az, hogy van egy kezdő összegünk, ami általában az össz pénz 1-2%-a, és ezt a pénzt minden nap felrakjuk egy duplázóra 10 napon keresztül, ami akár 2000%-os növekedést is eredményezhet.</p>
+        
+        <div class="example">
+            <h2>Példa:</h2>
+            <p>Van 50 000 Ft-od.</p>
+            <p>50 000 Ft 2%-a = 1 000 Ft.</p>
+            <ol>
+                <li><strong>1. nap:</strong> Barcelona a Real Madriddal játszik, és a Barcelonára 2-es odds van. Mi ezt megfogadjuk 1 000 Ft-tal, így nyerünk 2 000 Ft-ot.</li>
+                <li><strong>2. nap:</strong> Atletico Madrid játszik a Benficával, Atleticora 2-es odds van. Mi ezt megfogadjuk 2 000 Ft-tal, így nyerünk 4 000 Ft-ot.</li>
+                <li><strong>3. nap:</strong> Megfogadjuk 4 000 Ft-tal, és abból nyerünk 8 000 Ft-ot.</li>
+                <li><strong>4. nap:</strong> 8 000 Ft-ból 16 000 Ft-ot.</li>
+                <li><strong>5. nap:</strong> 16 000 Ft-ból 32 000 Ft-ot.</li>
+                <li><strong>6. nap:</strong> 32 000 Ft-ból 64 000 Ft-ot.</li>
+                <li><strong>7. nap:</strong> 64 000 Ft-ból 128 000 Ft-ot.</li>
+                <li><strong>8. nap:</strong> 128 000 Ft-ból 256 000 Ft-ot.</li>
+                <li><strong>9. nap:</strong> 256 000 Ft-ból 512 000 Ft-ot.</li>
+                <li><strong>10. nap:</strong> 512 000 Ft-ból 1 024 000 Ft-ot.</li>
+            </ol>
+        </div>
+        
+        <a href="Fogadasistrategia.html" class="back-button">Vissza</a>
+    </div>
+</body>
+</html>
+s
